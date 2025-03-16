@@ -1,9 +1,10 @@
 **CODSOFT Internship Projects**
 
-📌 Task 1: Landing Page
-Create an engaging and visually appealing landing page using HTML & CSS to leave a strong first impression on visitors.
+📌 Task 1: Portfolio Website
+Build a personal portfolio showcasing your skills, projects, and achievements with a unique and professional design.
 
-📌 Task 2: Portfolio Website
+📌 Task 2:  Landing Page
+Create an engaging and visually appealing landing page using HTML & CSS to leave a strong first impression on visitors.Portfolio Website
 Build a personal portfolio showcasing your skills, projects, and achievements with a unique and professional design.
 
 📌 Task 3: Calculator Website
