@@ -1,0 +1,128 @@
+/* General Styles */
+/* Default Light Mode */
+body {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Dark Mode for Header */
+.dark-mode header {
+    background: linear-gradient(90deg, #333, #444);
+}
+
+/* Dark Mode Button */
+#darkModeToggle {
+    background: #b70ede;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #530760, #8c4891);
+    color: white;
+    padding: 20px;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #b70ede;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Default Light Mode for Projects */
+.project {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode for Projects */
+.dark-mode .project {
+    background: #1e1e1e; /* Dark gray background */
+    color: white; /* White text for better readability */
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1); /* Light glow for visibility */
+}
+
+
+/* Resume Section */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #b70ede;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Smooth Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply to Sections */
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Button Hover Effect */
+button:hover, .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
