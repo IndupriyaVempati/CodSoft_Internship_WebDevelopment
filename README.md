@@ -1,3 +1,5 @@
+**CODSOFT Internship Projects**
+
 📌 Task 1: Landing Page
 Create an engaging and visually appealing landing page using HTML & CSS to leave a strong first impression on visitors.
 
